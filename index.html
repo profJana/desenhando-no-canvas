@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Desenhando com Canvas</title>
+</head>
+
+<body class="bodyBackground">
+
+    <div align="center">
+        <h1>Paint</h1>
+
+        <!--Criar a tag canvas-->
+        <canvas id="meucanvas" width="800" height="400"></canvas>
+        <br><br>
+
+        <div class="editors">
+            <div class="cor">
+                <span>Cor - </span>
+                <!--Criar um input para poder escrever o nome da cor-->
+                <input type="text" id="color" value="black">
+            </div>
+            <div class="linha">
+                <span>Linha - </span>
+                <input type="text" id="widthOfLine" value="5">
+            </div>
+            <button onclick="clearCanvas();">Limpar Área</button>
+            
+        </div>
+
+        
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+.bodyBackground {
+    background-image: url("https://images7.alphacoders.com/617/617537.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    cursor: pointer;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+#meucanvas {
+    border-width: 10px;
+    background-color: rgb(255, 255, 255);
+    border-style: ridge;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 42px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+input {
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 30px;
+}
+
+.editors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.472);
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 10px;
+}
